@@ -1,0 +1,28 @@
+/* selector{
+    property: value;
+ } */
+
+h1{
+    color: #FF042F;
+    /* border: width colour style
+    border-color: purple;
+    border-width: 5px;
+    border-style: double; */
+    border: 5px paleturquoise dashed;
+    /* order doesnot matter */
+}
+
+h4{
+    background: #23042F;
+    color: green;
+}
+
+body{
+    background: url(https://www.brookings.edu/wp-content/uploads/2017/11/metro_20171121_tech-empowers-tech-polarizes-mark-muro.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+li{
+    color: white;
+}

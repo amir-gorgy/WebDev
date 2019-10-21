@@ -1,0 +1,43 @@
+/* Element */
+h1{
+
+}
+
+/* class */
+.hello{
+
+}
+
+/* id */
+#name{
+
+}
+
+/* star (every element)*/
+* {
+    border:1px solid lightgray;
+}
+
+/* descendant */
+/* every a in li */
+li a{
+
+}
+
+/* Adjacent selector */
+/*  every ul after h4 */
+h4 + ul{
+
+}
+
+/* Attribute selector */
+/* select all elements with the specific attribute value */
+a[href='google.com']{
+
+}
+
+/* nth of type */
+/* styles every nth element in a group */
+ul:nth-of-type(3){
+
+}

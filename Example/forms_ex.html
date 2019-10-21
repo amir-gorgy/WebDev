@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Exercise</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form>
+        <p>
+        <label for="firstName">First Name:</label>
+        <input name = 'firstName' id='firstName' type="text" placeholder="John" required>
+        <label for="lastName">Last Name:</label>
+        <input name ='lastName' type="text" id="lastName" placeholder="Smith" required>
+    </p>
+
+    <p>
+        <label for="male">Male:</label>
+        <input type="radio" id ='genderChoice' required>
+        <label for="female">Female:</label>
+        <input type="radio" id ='genderChoice'>
+        <label for="other">Other:</label>
+        <input type="radio" id ='genderChoice'>
+    </p>
+    
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="your email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="your password" minlength="5" maxlength="10" required>
+    </p>
+
+    <p>
+        <label for="birthday">Birthday</label>
+        <input type="date" id ='birthday' name="birthday" required>
+    </p>
+    
+    <p>
+        <label for="termsAgreed">I agre to the terms and conditions</label>
+        <input name = 'termsAgreed' type="checkbox" id= 'termsAgreed' required>
+    </p>
+
+    <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<% include partials/header %>
+<h1>You fell in love with <%= nameVar %> </h1>
+<% if (nameVar.toLowerCase() === 'rusty'){ %>
+<p>Good Choice!</p>
+<%} else { %>
+<p> Bad Choice!! </p>
+<%}%>
+<p>P.S. This came from the /fellinlovewith route</p>
+<% include partials/footer %>

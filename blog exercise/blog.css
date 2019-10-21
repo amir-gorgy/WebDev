@@ -1,0 +1,46 @@
+body{
+    width: 80%;
+    border: 20px solid #bdc3c7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+}
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    height:0px;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+h2{
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+h1{
+    color: #2c3e50;
+}
+
+h1+p{
+    border-left: 10px gray solid;
+    padding-left: 5px;
+}
+
+#last{
+    padding-bottom: 20px;
+}
